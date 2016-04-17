@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//alles neu
+//und noch mehr
 namespace ConsoleApplication2
 {
     class Program
@@ -13,7 +15,7 @@ namespace ConsoleApplication2
             Parent p = new Parent(3, "gsdgs");
             p.Druck();
             Console.WriteLine();
-            p.I = 2;
+            //p.I = 2; und hier ein comment
             Console.WriteLine(p.I);
             Console.ReadLine();
         }
